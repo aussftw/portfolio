@@ -108,7 +108,7 @@ html, body {
   top: 0;
   left: 0;
   background: #bb3737;
-  width: 80%;
+  width: 50%;
   height: 100vh;
 }
 
@@ -131,7 +131,6 @@ html, body {
 .mobile-nav__item a {
   font-size: 1.5rem;
 }
-
 
 .intro {
   height: 100%;
@@ -238,6 +237,67 @@ html, body {
   animation: bounce 2s infinite;
 }
 
+.aboutme-body {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  font-family: 'Baron Neue',sans-serif;
+  background: #fff;
+  color: #0b0b0c;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutme-body h2 {
+  font-size: 4rem;
+  color: #0b0b0c;
+  padding: 0 0 2rem 0;
+  text-align: center;
+  position: relative;
+}
+
+.aboutme-body h2:after {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 5px;
+  margin-left: -40px;
+  left: 50%;
+  bottom: 0px;
+  background-color: #bb3737;
+}
+
+.aboutme-body .col-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.aboutme-body .col-left, .aboutme-body .col-right {
+  width: 100%;
+  max-width: 1140px;
+  height: 100%;
+  min-width: 400px;
+  vertical-align: middle;
+}
+
+.aboutme-body p {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: center;
+  padding: 0 3rem;
+}
+
+.aboutme-body p .full-stack {
+  display: inline;
+  color: #bb3737;
+}
+
+
 .open {
   display: block !important;
 }
@@ -286,6 +346,23 @@ html, body {
   .skills-container .skill-cards h3 {
       font-size: 1.1rem;
   }
+  .aboutme-body h2 {
+    font-size: 3.5rem;
+    margin-top: 1.8rem;
+  }
+  .aboutme-body p {
+    font-size: 1.3rem;
+    padding: 0;
+  }
+  .skills {
+    margin-bottom: 5rem;
+  }
+  .skills li {
+    margin: 0.9rem 0;
+  }
+  .aboutme-body .col-left, .aboutme-body .col-right {
+    min-width: 340px;
+  }
 }
 
 @media screen and (max-width: 768px){
@@ -314,6 +391,22 @@ html, body {
   .skills-container .skill-cards h3 {
       font-size: 1.0rem;
   }
+  .aboutme-body h2 {
+    font-size: 2.5rem;
+  }
+  .aboutme-body p {
+    font-size: 1.1rem;
+    padding: 0;
+  }
+  .skills {
+    margin-bottom: 4rem;
+  }
+  .skills li {
+    margin: 0.8rem 0;
+  }
+  .aboutme-body .col-left, .aboutme-body .col-right {
+    min-width: 320px;
+  }
 }
 
 @media screen and (max-width: 400px){
@@ -325,7 +418,7 @@ html, body {
   }
   .content h1 {
       font-size: 2.5rem;
-      margin-top: 5rem;
+      margin-top: 4rem;
   }
   .content h1 i {
       font-size: 4rem;
@@ -342,9 +435,25 @@ html, body {
   .skills-container .skill-cards h3 {
       font-size: 0.9rem;
   }
+  .aboutme-body h2 {
+    font-size: 1.5rem;
+  }
+  .aboutme-body p {
+    font-size: 0.9rem;
+    padding: 0;
+  }
+  .skills {
+    margin-bottom: 3rem;
+  }
+  .skills li {
+    margin: 0.7rem 0;
+  }
+  .aboutme-body .col-left, .aboutme-body .col-right {
+    min-width: 300px;
+  }  
 }
 
-@media (min-width: 60rem) {
+@media (min-width: 900px) {
   .toggle-button {
     display: none;
   }
