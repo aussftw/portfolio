@@ -38,7 +38,10 @@ html, body {
   position: fixed;
   top: 0;
   left: 0;
-  background: brown;
+  background: rgba(187, 55, 55,0.8);
+  -webkit-box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+  -moz-box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
+       box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
   padding: 0.5rem 1rem;
   z-index: 1;
   display: flex;
@@ -95,7 +98,7 @@ html, body {
 
 .nav-item a:hover,
 .main-nav__item a:active {
-  color: grey;
+  color: white;
 }
 
 .mobile-nav {
@@ -104,7 +107,7 @@ html, body {
   z-index: 101;
   top: 0;
   left: 0;
-  background: white;
+  background: #bb3737;
   width: 80%;
   height: 100vh;
 }
@@ -129,33 +132,29 @@ html, body {
   font-size: 1.5rem;
 }
 
-.button {
-  background: #0e4f1f;
-  color: white;
-  font: inherit;
-  border: 1.5px solid #0e4f1f;
-  padding: 0.5rem;
-  border-radius: 8px;
-  font-weight: bold;
-  cursor: pointer;
-}
 
-.button:hover,
-.button:active {
-  background: white;
-  color: #0e4f1f;
-}
-
-.button:focus {
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: table;
+  font-family: 'Exo 2', sans-serif;
+  border-bottom: 5px solid #bb3737;
   outline: none;
 }
 
-.button[disabled] {
-  cursor: not-allowed;
-  border: #a1a1a1;
-  background: #ccc;
-  color: #a1a1a1;
-} 
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.content {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
 
 .greet {
   width: 80%;
@@ -180,6 +179,16 @@ html, body {
   font-weight: 100;
 }
 
+.skills-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 95%;
+  align-content: center;
+  justify-content: space-evenly;
+  margin: 1.8rem auto;
+  max-width: 750px;
+}
+
 .skills-container .skill-cards {
   display: flex;
   flex-flow: row wrap;
@@ -192,7 +201,7 @@ html, body {
 }
 
 .skills-container .skill-cards:hover *{
-  color: brown;
+  color: #bb3737;
 }
 
 .skills-container .skill-cards i {
