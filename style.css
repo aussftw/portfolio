@@ -374,8 +374,15 @@ html, body {
 }
 
 #uhostp {
-  background:url("img/uhost.png");
+  background:url("img/uhost8.png");
   background-size: auto;
+}
+#robofriendsp {
+  background:url("img/robofriends3.png");
+}
+
+#fca {
+  background:url("img/fr6.png");
 }
 
 .card .meta {
@@ -445,7 +452,8 @@ html, body {
 .card .description .project-links a {
   color: #bb3737;
   display: inline-block;
-  margin: 0 5px;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
   padding: 7px;
   border: #bb3737 2px solid;
   border-radius: 7px;
@@ -617,6 +625,57 @@ html, body {
   }
   .aboutme-body .col-left, .aboutme-body .col-right {
     min-width: 320px;
+  }
+  .card {
+    height: 450px;
+  }
+  .card p.desc-container {
+    margin-top: 2rem;
+  }
+  .card .description .project-links {
+    position: static;
+  }
+}
+
+@media (min-width: 640px) {
+  .card {
+    flex-direction: row;
+    max-width: 600px;
+  }
+  .card .meta {
+    flex-basis: 40%;
+    height: auto;
+  }
+  .card .description {
+    flex-basis: 60%;
+  }
+  
+  .card .description:before {
+    -webkit-transform: skewX(-3deg);
+            transform: skewX(-3deg);
+    content: "";
+    background: #fff;
+    width: 30px;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .card.alt {
+    flex-direction: row-reverse;
+  }
+  .card.alt .description:before {
+    left: inherit;
+    right: -10px;
+    -webkit-transform: skew(3deg);
+            transform: skew(3deg);
+  }
+  .card.alt .details {
+    padding-left: 25px;
+  }
+  .card p {
+    margin-top: 4rem;
   }
 }
 
