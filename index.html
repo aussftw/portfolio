@@ -25,7 +25,7 @@
           <span class="toggle-button__bar"></span>
           <span class="toggle-button__bar"></span>
         </button>
-        <a href="index.html" class="main-header__brand">
+        <a href="#header" class="main-header__brand">
             <img src="https://image.freepik.com/free-vector/triangle-letter-ag-free-logo-design_8035-1.jpg" alt="Alexander Kaminskiy | Full-stack Web Developer">
         </a>
       </div>  
@@ -33,13 +33,13 @@
       <nav class="navbar-desktop">
         <ul class="nav_items">
           <li class="nav-item">
-            <a href=#>ABOUT</a>
+            <a href=#about>ABOUT</a>
           </li>
           <li class="nav-item">
-            <a href=#>PROJECTS</a>
+            <a href=#projects>PROJECTS</a>
           </li>
           <li class="nav-item">
-            <a href=#>CONTACT</a>
+            <a href=#contact>CONTACT</a>
           </li>
           <li class="nav-item">
             <a href=#>RESUME</a>
@@ -52,19 +52,20 @@
     <nav class="mobile-nav">
       <ul class="mobile-nav__items">
           <li class="mobile-nav__item">
-              <a href="#">ABOUT</a>
+              <a href="#about">ABOUT</a>
           </li>
           <li class="mobile-nav__item">
-              <a href="#">PROJECTS</a>
+              <a href="#projects">PROJECTS</a>
           </li>
           <li class="mobile-nav__item">
-              <a href="#">CONTACT</a>
+              <a href="#contact">CONTACT</a>
           </li>
           <li class="mobile-nav__item">
               <a href="#">RESUME</a>
           </li>
       </ul>
   </nav>
+
   <div class="intro">
     <div class="inner">
       <div class="content">
@@ -121,7 +122,7 @@
           <h2>
             Hi there! I'm Alexader Kaminskiy - <span class=full-stack> a self-taught Web Developer</span>
           </h2>
-          <p class="info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo delectus saepe officiis magnam sapiente enim perferendis provident amet, voluptatibus nam molestias magni possimus incidunt quis veniam. Ducimus, cupiditate sint. Labore.</p>
+          <p class="info">I am a full-stack web developer with a love for a funky language that is JavaScript. Highly adaptable in this ever-changing technological industry, I have fun conceptualizing, developing and deploying useful software that not only satisfies customers but myself through solving the challenges inherent with each project.</p>
           <p class="motivated">I am highly-motivated, results oriented, self-driven, hard-working, fast learner, smart and eager to be a part of the team, learn new technologies, become a valuable employee of the company and bring it success. When I’m not programming, you can find me playing video games or learning and reading more about web development.</p>
           <p class="passion"> I'm passionate about improving user experience by cultivating great and better user interfaces, which results in greater user retention.<span class="full-stack"> Let's go collaborate and make something special!</span></p>
         </div>
@@ -129,50 +130,72 @@
     </div>
   </div>
 
-  <div class="projects-body" id="projects">
-    <h2>Projects</h2>
+<div class="projects-body" id="projects">
+  <h2>Projects</h2>
     <div class="projects-container">
-    <div class="card">
-      <div class="meta">
-        <div class="photo" style="background-image:url(img/uhost.png);"></div>
-        <ul class="details">
-          <li class="technologies">
-            <ul>
-              <li>HTML5/CSS3</li>
-              <li>JavaScript</li>
-              <li>jQuery</li>
+
+      <div class="card">
+        <div class="meta">
+          <div class="photo" id="uhostp"></div>
+            <ul class="details">
+              <li class="tags">
+                <ul>
+                  <li><i class="fa fa-code" aria-hidden="true"> Tools/Techs used</i></li>
+                  <li>HTML5/CSS3</li>
+                  <li>JavaScript</li>
+                  <li>jQuery</li>
+                </ul>
+              </li>
             </ul>
-          </li>
-        </ul>
+          </div>  
         <div class="description">
           <h3>uHost</h3>
           <p class="desc">Hositng site</p>
-          <a href="#">Github</a>
-          <a href="#">Demo</a>
+          <div class="project-links">
+            <a href="https://github.com/aussftw/uhost">Github</a>
+            <a href="https://aussftw.github.io/uhost/">Demo</a>
+          </div>
+          <div class="featured">
+            <span class="featured-card">FEATURED</span>
+          </div>
         </div>
       </div>
-      <div class="meta">
-        <ul class="details">
-          <li class="technologies">
-            <ul>
-              <li>HTML5/CSS3</li>
-              <li>ES6+</li>
-              <li>ReactJS</li>
-              <li>Redux</li>
+    
+      <div class="card">
+        <div class="meta">
+          <div class="photo" id="robofriendsp"></div>
+            <ul class="details">
+              <li class="tags">
+                <ul>
+                <li><i class="fa fa-code" aria-hidden="true"> Tools/Techs used</i></li>
+                <li>HTML5/CSS3</li>
+                <li>ES6+</li>
+                <li>ReactJS</li>
+                <li>Redux</li>
               </ul>
             </li>
           </ul>
+        </div> 
         <div class="description">
           <h3>Robofriends</h3>
           <p class="desc">Contact-list app with funny robo-avatars</p>
-          <a href="#">Github</a>
-          <a href="#">Demo</a>
+          <div class="project-links">
+            <a href="https://github.com/aussftw/robofirends">Github</a>
+            <a href="https://aussftw.github.io/robofirends/">Demo</a>
+          </div>
+          <div class="featured">
+            <span class="featured-card">FEATURED</span>
+          </div> 
         </div>
       </div>
-      <div class="meta">
-        <ul class="details">
-          <li class="technologies">
-            <ul>
+      
+      <div class="card">
+        <div class="meta">
+          <div class="photo" id="fca"></div>
+            <ul class="details">
+              <li class="tags">
+               <ul>
+                <li><i class="fa fa-code" aria-hidden="true"> Tools/Techs used</i></li>
                 <li>HTML5/CSS3</li>
                 <li>ES6+</li>
                 <li>ReactJS</li>
@@ -183,53 +206,61 @@
               </ul>
             </li>
           </ul>
+        </div>
         <div class="description">
           <h3>Face Recognition App</h3>
           <p class="desc">App wich help you find any face on pictures</p>
-          <a href="#">Github(fornt-end)</a>
-          <a href="#">Github(back-end)</a>
-          <a href="https://facedetectionfe.herokuapp.com/">Demo</a>
+          <div class="project-links">
+            <a href="https://github.com/aussftw/facerecognitionbrain">Github(fornt-end)</a>
+            <a href="https://github.com/aussftw/smartbrainapi">Github(back-end)</a>
+            <a href="https://facedetectionfe.herokuapp.com/">Demo</a>
+          </div>
+          <div class="featured">
+              <span class="featured-card">FEATURED</span>
+            </div>
         </div>
       </div>
+
     </div>
   </div>
-</div>
+
   
-  <div class="contact" id="contact">
+  <div class="contact-body" id="contact">
     <h2>Contact me</h2>
-    <hr>
     <p>Get in touch with me</p>
     <div class="container">
-      <div class="socials">
-        <div class="github">
-          <a href="https://github.com/aussftw">
+      <div class="col-left">
+        <div class="socials">
+          <a class="btn" href="https://github.com/aussftw">
             <i class="fab fa-github"></i>
           </a>
-        </div>
-        <div class="linkedin">
-          <a href="https://www.linkedin.com/in/alexander-k-7a7a32165/">
+          <a class="btn" href="https://www.linkedin.com/in/alexander-k-7a7a32165/">
             <i class="fab fa-linkedin-in"></i>
           </a>
-        </div>
-        <div class="linkedin">
-          <a href="https://www.instsagram.com/auscapulet">
+          <a class="btn" href="https://www.instsagram.com/auscapulet">
             <i class="fab fa-instagram"></i>
           </a>
-        </div>
+        </div>   
       </div>
-      <div class="contacts container">
-        <p>
-          <span>Email</span>
-          shagronaus@gmail.com
-        </p>
+      <div class="col-right">
+        <div class="contacts-container">
+          <p>
+            <span class="brown">Email</span>
+              : shagronaus@gmail.com
+          </p>
+        </div>
       </div>
     </div>
   </div>
+
+
   <footer>
     <div class="footer-text">
-      Developed and Made with
-      <span class="color">❤</span>
-      by Alexander Kaminskiy ©  2019
+      <p>
+        Developed and Made with
+        <span class="brown">&#x2665;</span>
+        by Alexander Kaminskiy &copy; 2019
+      </p>
     </div>
   </footer>
   <script src="script.js"></script>
