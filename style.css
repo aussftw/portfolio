@@ -787,7 +787,7 @@ footer {
   }
 }
 
-@media (min-width: 640rem) {
+@media (min-width: 64rem) {
   .card {
     flex-direction: row;
     max-width: 600px;
