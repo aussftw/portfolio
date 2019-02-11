@@ -722,7 +722,7 @@ footer {
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 76rem){
   .navbar-desktop {
     display: none;
   }
@@ -787,7 +787,7 @@ footer {
   }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 640rem) {
   .card {
     flex-direction: row;
     max-width: 600px;
@@ -829,7 +829,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 40rem){
   .navbar-desktop {
     display: none;
   }
