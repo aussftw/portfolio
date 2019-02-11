@@ -375,14 +375,14 @@ html, body {
 
 #uhostp {
   background:url("img/uhost8.png");
-  background-size: auto;
 }
+
 #robofriendsp {
   background:url("img/robofriends3.png");
 }
 
 #fca {
-  background:url("img/fr6.png");
+  background:url("img/fr5.png");
 }
 
 .card .meta {
@@ -465,10 +465,10 @@ html, body {
   bottom: 0;
 }
 
-.card .description .project-links .disabled {
+/* .card .description .project-links .disabled {
   opacity: 0.35; 
   cursor: not-allowed;
-}
+} */
 
 .card .description .featured {
   position: absolute;
@@ -770,6 +770,13 @@ footer {
   .card p.desc-container {
     margin-top: 2rem;
   }
+  #fca {
+    background:url("img/fr2.png");
+  }
+  #uhostp {
+    background:url("img/uhost4.png");
+  }
+
   .card .description .project-links {
     position: static;
   }
