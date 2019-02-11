@@ -452,8 +452,8 @@ html, body {
 .card .description .project-links a {
   color: #bb3737;
   display: inline-block;
-  margin: 0 0.2rem;
-  margin-bottom: 1rem;
+  margin: 0 5px;
+  margin-bottom: 0.4rem;
   padding: 7px;
   border: #bb3737 2px solid;
   border-radius: 7px;
@@ -779,9 +779,6 @@ footer {
 
   .card .description .project-links {
     position: static;
-  }
-  .project-links a {
-    margin-block-end: 0.1rem;
   }
   .btn {
     width: 60px;
