@@ -6,6 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
   <title>Alexander Kaminskiy | Full-stack Web Developer</title>
   <meta name="title" content="Alexander Kaminskiy Full-stack Web Developer">
   <meta name="keywords" content=" Web developer, fontend developer, backend developer, react developer, javascript developer, node.js developer">
@@ -25,7 +26,7 @@
           <span class="toggle-button__bar"></span>
           <span class="toggle-button__bar"></span>
         </button>
-        <a href="#header" class="main-header__brand">
+        <a class="main-header__brand" id="header-logo">
             <img src="https://image.freepik.com/free-vector/triangle-letter-ag-free-logo-design_8035-1.jpg" alt="Alexander Kaminskiy | Full-stack Web Developer">
         </a>
       </div>  
@@ -42,7 +43,7 @@
             <a href=#contact>CONTACT</a>
           </li>
           <li class="nav-item">
-            <a href=#>RESUME</a>
+            <a href=#>CV</a>
           </li>
         </ul>
       </nav>
@@ -61,7 +62,7 @@
               <a href="#contact">CONTACT</a>
           </li>
           <li class="mobile-nav__item">
-              <a href="#">RESUME</a>
+              <a href="#">CV</a>
           </li>
       </ul>
   </nav>
@@ -80,11 +81,11 @@
 
          <div class="skills-container">
           <div class="skill-cards">
-            <i class="fab fa-html5" aria-hidden="true"></i>
+            <i class="lab la-html5" aria-hidden="true"></i>
             <h3>HTML5</h3>
           </div>
           <div class="skill-cards">
-            <i class="fab fa-css3" aria-hidden="true"></i>
+            <i class="lab la-css3" aria-hidden="true"></i>
             <h3>CSS3</h3>
           </div>
           <div class="skill-cards">
@@ -92,11 +93,23 @@
             <h3>JavaScript</h3>
           </div>
           <div class="skill-cards">
+            <i class="lab la-git" aria-hidden="true"></i>
+            <h3>Git</h3>
+          </div>
+          <div class="skill-cards">
+            <i class="lab la-sass" aria-hidden="true"></i>
+            <h3>SASS</h3>
+          </div>
+          <div class="skill-cards">
+            <i class="lab la-npm" aria-hidden="true"></i>
+            <h3>React</h3>
+          </div>
+          <div class="skill-cards">
             <i class="fab fa-react" aria-hidden="true"></i>
             <h3>React</h3>
           </div>
           <div class="skill-cards">
-            <i class="fab fa-node-js" aria-hidden="true"></i>
+            <i class="lab la-node-js" aria-hidden="true"></i>
             <h3>Node.js</h3>
           </div>
           <div class="skill-cards">
@@ -135,6 +148,38 @@
     <div class="projects-container">
 
       <div class="card">
+          <div class="meta">
+            <div class="photo" id="fca"></div>
+              <ul class="details">
+                <li class="tags">
+                  <ul>
+                  <li ><i class="fa fa-code" aria-hidden="true"> Tools/Techs used</i></li>
+                  <li>HTML5/CSS3</li>
+                  <li>ES6+</li>
+                  <li>ReactJS</li>
+                  <li>NodeJS</li>
+                  <li>ExpressJS</li>
+                  <li>ClarifaiAPI</li>
+                  <li>Heroku</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h3>Face Recognition App</h3>
+            <p class="desc">App wich help you find any face on pictures</p>
+            <div class="project-links">
+              <a href="https://github.com/aussftw/facerecognitionbrain">Github(fornt-end)</a>
+              <a href="https://github.com/aussftw/smartbrainapi">Github(back-end)</a>
+              <a href="https://facedetectionfe.herokuapp.com/">Demo</a>
+            </div>
+            <div class="featured">
+                <span class="featured-card">FEATURED</span>
+              </div>
+          </div>
+        </div>
+        
+      <div class="card">
         <div class="meta">
           <div class="photo" id="uhostp"></div>
             <ul class="details">
@@ -143,7 +188,7 @@
                   <li><i class="fa fa-code" aria-hidden="true"> Tools/Techs used</i></li>
                   <li>HTML5/CSS3</li>
                   <li>JavaScript</li>
-                  <li>jQuery</li>
+                  <li>Vanilla JS</li>
                 </ul>
               </li>
             </ul>
@@ -168,10 +213,9 @@
               <li class="tags">
                 <ul>
                 <li><i class="fa fa-code" aria-hidden="true"> Tools/Techs used</i></li>
-                <li>HTML5/CSS3</li>
-                <li>ES6+</li>
                 <li>ReactJS</li>
                 <li>Redux</li>
+                <li>Tachyons</li>
               </ul>
             </li>
           </ul>
@@ -181,7 +225,6 @@
           <p class="desc">Contact-list app with funny robo-avatars</p>
           <div class="project-links">
             <a href="https://github.com/aussftw/robofirends">Github</a>
-            <a href="https://aussftw.github.io/robofirends/">Demo</a>
           </div>
           <!-- <div class="featured">
             <span class="featured-card">FEATURED</span>
@@ -189,38 +232,6 @@
         </div>
       </div>
       
-      <div class="card">
-        <div class="meta">
-          <div class="photo" id="fca"></div>
-            <ul class="details">
-              <li class="tags">
-               <ul>
-                <li><i class="fa fa-code" aria-hidden="true"> Tools/Techs used</i></li>
-                <li>HTML5/CSS3</li>
-                <li>ES6+</li>
-                <li>ReactJS</li>
-                <li>NodeJS</li>
-                <li>ExpressJS</li>
-                <li>ClarifaiAPI</li>
-                <li>Heroku</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <div class="description">
-          <h3>Face Recognition App</h3>
-          <p class="desc">App wich help you find any face on pictures</p>
-          <div class="project-links">
-            <a href="https://github.com/aussftw/facerecognitionbrain">Github(fornt-end)</a>
-            <a href="https://github.com/aussftw/smartbrainapi">Github(back-end)</a>
-            <a href="https://facedetectionfe.herokuapp.com/">Demo</a>
-          </div>
-          <div class="featured">
-              <span class="featured-card">FEATURED</span>
-            </div>
-        </div>
-      </div>
-
     </div>
   </div>
 
@@ -234,7 +245,7 @@
           <a class="btn" href="https://github.com/aussftw">
             <i class="fab fa-github"></i>
           </a>
-          <a class="btn" href="https://www.linkedin.com/in/alexander-k-7a7a32165/">
+          <a class="btn" href="https://www.linkedin.com/in/alexander-kaminskiy">
             <i class="fab fa-linkedin-in"></i>
           </a>
           <a class="btn" href="https://www.instsagram.com/auscapulet">

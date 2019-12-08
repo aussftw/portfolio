@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-@import url('https://fonts.googleapis.com/css?family=Exo+2');
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400,900");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Exo+2");
 
-
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -11,9 +11,9 @@ html, body {
   color: rgb(228, 228, 228);
   scroll-behavior: smooth;
   background: #111112;
-  background: -webkit-linear-gradient(90deg,#111112,#232526);
-  background: -webkit-linear-gradient(left,#111112,#232526);
-  background: linear-gradient(90deg,#111112,#232526);
+  background: -webkit-linear-gradient(90deg, #111112, #232526);
+  background: -webkit-linear-gradient(left, #111112, #232526);
+  background: linear-gradient(90deg, #111112, #232526);
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
@@ -38,10 +38,10 @@ html, body {
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(187, 55, 55,0.8);
+  background: rgba(187, 55, 55, 0.8);
   -webkit-box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
   -moz-box-shadow: 0 10px 6px -6px rgb(0, 0, 0);
-       box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
+  box-shadow: 0 8px 6px -6px rgb(0, 0, 0);
   padding: 0.5rem 1rem;
   z-index: 1;
   display: flex;
@@ -70,7 +70,6 @@ html, body {
   display: block;
   margin: 0.3rem 0;
 }
-
 
 .main-header__brand img {
   height: 2rem;
@@ -139,7 +138,7 @@ html, body {
   width: 100%;
   margin: auto;
   display: table;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   border-bottom: 5px solid #bb3737;
   outline: none;
 }
@@ -165,7 +164,7 @@ html, body {
 }
 
 .greet h1 {
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 4rem;
   margin-top: 8rem;
 }
@@ -201,10 +200,6 @@ html, body {
   min-width: 120px;
 }
 
-.skills-container .skill-cards:hover *{
-  color: #bb3737;
-}
-
 .skills-container .skill-cards i {
   font-size: 3rem;
   transition: all ease 300ms;
@@ -217,14 +212,14 @@ html, body {
   transition: all ease 300ms;
 }
 
-.arrow.bounce a { 
-  color: rgb(216, 216, 216); 
+.arrow.bounce a {
+  color: rgb(216, 216, 216);
   text-decoration: none;
   transition: color ease 300ms;
 }
 
-.arrow.bounce a:hover { 
-  color: silver; 
+.arrow.bounce a:hover {
+  color: silver;
 }
 
 .arrow {
@@ -244,7 +239,7 @@ html, body {
   width: 100%;
   margin: auto;
   display: flex;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: #fff;
   color: #0b0b0c;
   align-items: center;
@@ -260,7 +255,7 @@ html, body {
 }
 
 .aboutme-body h2:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 80px;
   height: 5px;
@@ -278,7 +273,8 @@ html, body {
   justify-content: space-evenly;
 }
 
-.aboutme-body .col-left, .aboutme-body .col-right {
+.aboutme-body .col-left,
+.aboutme-body .col-right {
   width: 100%;
   max-width: 1140px;
   height: 100%;
@@ -287,7 +283,7 @@ html, body {
 }
 
 .aboutme-body p {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 1.5rem;
   font-weight: 100;
   text-align: center;
@@ -319,7 +315,7 @@ html, body {
 }
 
 .projects-body h2:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 80px;
   height: 5px;
@@ -331,7 +327,7 @@ html, body {
 
 .projects-container {
   display: flex;
-  flex-flow:  wrap;
+  flex-flow: wrap;
   width: 80%;
   margin: 3rem auto 6rem auto;
 }
@@ -344,9 +340,9 @@ html, body {
   display: flex;
   flex-direction: column;
   margin: 1rem auto;
-  -webkit-box-shadow: 10px 10px 31px -9px rgba(0,0,0,0.6);
-  -moz-box-shadow: 10px 10px 31px -9px rgba(0,0,0,0.6);
-  box-shadow: 10px 10px 31px -9px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 10px 10px 31px -9px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 10px 10px 31px -9px rgba(0, 0, 0, 0.6);
+  box-shadow: 10px 10px 31px -9px rgba(0, 0, 0, 0.6);
   margin-bottom: 1.6%;
   background: #fff;
   line-height: 1.4;
@@ -369,20 +365,20 @@ html, body {
 
 .card:hover .photo {
   -webkit-transform: scale(1.3);
-          transform: scale(1.3);
-          filter: blur(2.5px)
+  transform: scale(1.3);
+  filter: blur(2.5px);
 }
 
 #uhostp {
-  background:url("img/uhost8.png");
+  background: url("img/uhost8.png");
 }
 
 #robofriendsp {
-  background:url("img/robofriends3.png");
+  background: url("img/robofriends3.png");
 }
 
 #fca {
-  background:url("img/fr5.png");
+  background: url("img/fr5.png");
 }
 
 .card .meta {
@@ -399,18 +395,18 @@ html, body {
   left: 0;
   background-size: cover;
   background-position: center;
-  transition: -webkit-transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 .card .details,
 .card .details ul {
-    font-family: 'Exo 2', sans-serif;
-    margin: auto;
-    padding: 0;
-    list-style: none;
-    font-size: 15px
+  font-family: "Exo 2", sans-serif;
+  margin: auto;
+  padding: 0;
+  list-style: none;
+  font-size: 15px;
 }
 
 .card .details {
@@ -419,12 +415,12 @@ html, body {
   bottom: 0;
   left: -110%;
   margin: auto;
-  transition: left .2s;
+  transition: left 0.2s;
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
   padding: 10px;
   width: 100%;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .card .details .tags li {
@@ -440,7 +436,7 @@ html, body {
 
 .card .description h3,
 .card .description h3 {
-    font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
 }
 
 .card .description h3 {
@@ -481,10 +477,10 @@ html, body {
   display: block;
   transform: rotate(-45deg);
   width: 160px;
-  padding: 10px 0;
+  padding: 2px 0;
   background-color: #bb3737;
   text-align: center;
-  box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   color: #fff;
   font-weight: 600;
 }
@@ -536,7 +532,7 @@ html, body {
 }
 
 .contact-body h2:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 80px;
   height: 5px;
@@ -555,12 +551,12 @@ html, body {
   margin: 3rem auto 0 auto;
 }
 
-.contact-body .col-left, .contact-body .col-right {
+.contact-body .col-left,
+.contact-body .col-right {
   width: 100%;
   height: 100%;
   vertical-align: middle;
 }
-
 
 .btn {
   display: inline-block;
@@ -587,7 +583,7 @@ html, body {
 }
 
 .btn::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 120%;
   height: 120%;
@@ -604,7 +600,7 @@ html, body {
 }
 
 .contacts-container p {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 1.3rem;
 }
 
@@ -617,7 +613,7 @@ footer {
   width: 100%;
   justify-content: center;
   margin: 2rem auto;
-  font-family: 'Exo 2',sans-serif;
+  font-family: "Exo 2", sans-serif;
   text-align: center;
 }
 
@@ -634,22 +630,26 @@ footer {
 
 @keyframes bganim {
   0% {
-      top: 90%;
-      left: -110%;  
+    top: 90%;
+    left: -110%;
   }
   50% {
-      top: -30%;
-      left: 10%;  
+    top: -30%;
+    left: 10%;
   }
   100% {
-      top: -10%;
-      left: -10%;
+    top: -10%;
+    left: -10%;
   }
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
   }
   40% {
     transform: translateY(-30px);
@@ -659,36 +659,35 @@ footer {
   }
 }
 
-/* Media Queries */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
   .navbar-desktop {
     display: none;
   }
   .content {
-      padding-bottom: 8%;
+    padding-bottom: 8%;
   }
   .content h1 {
-      font-size: 3.5rem;
-      margin-top: 7rem;
+    font-size: 3.5rem;
+    margin-top: 7rem;
   }
   .content h1 i {
-      font-size: 5rem;
+    font-size: 5rem;
   }
   .content h2 {
-      margin-bottom: 5rem;
+    margin-bottom: 5rem;
   }
   .skills-container {
-      margin: 1.5rem auto;
+    margin: 1.5rem auto;
   }
   .skills-container .skill-cards {
-      margin: 3px;
-      min-width: 80px;
+    margin: 5px;
+    min-width: 80px;
   }
   .skills-container .skill-cards i {
-      font-size: 2.7rem;
+    font-size: 2.7rem;
   }
   .skills-container .skill-cards h3 {
-      font-size: 1.1rem;
+    font-size: 1.1rem;
   }
   .aboutme-body h2 {
     font-size: 3.5rem;
@@ -704,7 +703,8 @@ footer {
   .skills li {
     margin: 0.9rem 0;
   }
-  .aboutme-body .col-left, .aboutme-body .col-right {
+  .aboutme-body .col-left,
+  .aboutme-body .col-right {
     min-width: 340px;
   }
   .btn {
@@ -721,32 +721,31 @@ footer {
   }
 }
 
-
-@media screen and (max-width: 76rem){
+@media screen and (max-width: 76rem) {
   .navbar-desktop {
     display: none;
   }
   .content {
-      padding-bottom: 10%;
+    padding-bottom: 10%;
   }
   .content h1 {
-      font-size: 3.0rem;
-      margin-top: 6rem;
+    font-size: 3rem;
+    margin-top: 6rem;
   }
   .content h1 i {
-      font-size: 4rem;
+    font-size: 4rem;
   }
   .content h2 {
-      margin-bottom: 4rem;
+    margin-bottom: 4rem;
   }
   .skills-container {
-      margin: 1.3rem auto;
+    margin: 1.3rem auto;
   }
   .skills-container .skill-cards i {
-      font-size: 2.4rem;
+    font-size: 2.4rem;
   }
   .skills-container .skill-cards h3 {
-      font-size: 1.0rem;
+    font-size: 1rem;
   }
   .aboutme-body h2 {
     font-size: 2.5rem;
@@ -761,7 +760,8 @@ footer {
   .skills li {
     margin: 0.8rem 0;
   }
-  .aboutme-body .col-left, .aboutme-body .col-right {
+  .aboutme-body .col-left,
+  .aboutme-body .col-right {
     min-width: 320px;
   }
   .card {
@@ -771,10 +771,10 @@ footer {
     margin-top: 2rem;
   }
   #fca {
-    background:url("img/fr2.png");
+    background: url("img/fr2.png");
   }
   #uhostp {
-    background:url("img/uhost4.png");
+    background: url("img/uhost4.png");
   }
 
   .card .description .project-links {
@@ -806,10 +806,10 @@ footer {
   .card .description {
     flex-basis: 60%;
   }
-  
+
   .card .description:before {
     -webkit-transform: skewX(-3deg);
-            transform: skewX(-3deg);
+    transform: skewX(-3deg);
     content: "";
     background: #fff;
     width: 30px;
@@ -826,7 +826,7 @@ footer {
     left: inherit;
     right: -10px;
     -webkit-transform: skew(3deg);
-            transform: skew(3deg);
+    transform: skew(3deg);
   }
   .card.alt .details {
     padding-left: 25px;
@@ -836,31 +836,31 @@ footer {
   }
 }
 
-@media screen and (max-width: 40rem){
+@media screen and (max-width: 40rem) {
   .navbar-desktop {
     display: none;
   }
   .content {
-      padding-bottom: 12%;
+    padding-bottom: 12%;
   }
   .content h1 {
-      font-size: 2.5rem;
-      margin-top: 4rem;
+    font-size: 2.5rem;
+    margin-top: 4rem;
   }
   .content h1 i {
-      font-size: 4rem;
+    font-size: 4rem;
   }
   .content h2 {
-      margin-bottom: 3rem;
+    margin-bottom: 3rem;
   }
   .skills-container {
-      margin: 1.2rem auto;
+    margin: 1.2rem auto;
   }
   .skills-container .skill-cards i {
-      font-size: 2.1rem;
+    font-size: 2.1rem;
   }
   .skills-container .skill-cards h3 {
-      font-size: 0.9rem;
+    font-size: 0.9rem;
   }
   .aboutme-body h2 {
     font-size: 1.5rem;
@@ -875,9 +875,10 @@ footer {
   .skills li {
     margin: 0.7rem 0;
   }
-  .aboutme-body .col-left, .aboutme-body .col-right {
+  .aboutme-body .col-left,
+  .aboutme-body .col-right {
     min-width: 300px;
-  }  
+  }
   .btn {
     width: 55px;
     height: 55px;
@@ -889,7 +890,7 @@ footer {
 
   .contacts-container p {
     font-size: 0.8rem;
-  }  
+  }
 }
 
 @media (min-width: 900px) {
